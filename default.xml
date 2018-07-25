@@ -19,13 +19,13 @@
   <default remote="agl" sync-j="4" revision="master"/>
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="sandbox/ronan/rocko_m3_bsp_3.9"/>
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
 
   <!-- Renesas Gen3 specific things -->
-  <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3"/>
+  <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" revision="sandbox/ronan/rocko_m3_bsp_3.9"/>
   <project name="CogentEmbedded/meta-rcar" path="meta-rcar" remote="github" revision="8f7f841f70452aae1cbbf2fbbd986b737d53a785" upstream="v3.9.0"/>
 
   <!-- Updater layers. -->
