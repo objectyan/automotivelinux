@@ -16,7 +16,7 @@
   <default remote="agl" sync-j="4" revision="master"/>
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="next" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
